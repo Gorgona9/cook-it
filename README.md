@@ -1,5 +1,9 @@
 # Next.js Cook it
 
+![](public/assets/preview/screen1.png)
+![](public/assets/preview/screen2.png)
+![](public/assets/preview/screen3.png)
+
 ## Introduction
 
 The goal is to allow people share their recipes with everyone and save your favourites. Also, users can write comments about the published recipes.
