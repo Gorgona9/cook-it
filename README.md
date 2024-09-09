@@ -1,4 +1,4 @@
-# Next.js Recipe Book 🍜
+# Next.js Cook it
 
 ## Introduction
 
