@@ -8,10 +8,6 @@ The goal is to allow people share their recipes with everyone and save your favo
 
 This project is created with [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [styled components library](https://styled-components.com/) to manage styles.
 
-Recipes data, images and users authentication are managed with Firebase.
-
-The application is deployed on Netlify using [@netlify/plugin-nextjs](https://github.com/netlify/netlify-plugin-nextjs#installation-and-configuration) plugin for resolving a problem with next routing on website reload.
-
 ## Getting Started
 
 First, fork and clone this repository. Then, run `bash npm install` to install all dependencies, when it will finish, run `bash npm run dev` to start the development server locally.
