@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+blockquote {
+  margin: 1rem 0;
+  padding-left: 1rem;
+  border-left: 4px solid #333;
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+a {
+  color: #3182ce;
+  text-decoration: underline;
+}
+
+img {
+  border: none;
+  padding: 0 !important;
+}
+
+a:hover {
+  color: #2c5282;
+}
+
+.list-decimal {
+  list-style-type: decimal;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.myPrev,
+.myNext {
+}
+
+
+.myPrev:hover .sliderArrow,
+.myNext:hover .sliderArrow {
+}
+
+.myPrev.swiper-button-disabled .sliderArrow,
+.myNext.swiper-button-disabled .sliderArrow {
+  fill: theme(colors.gray.200);
+}
+
+.myPrev.swiper-button-disabled,
+.myNext.swiper-button-disabled {
+  background: transparent !important;
+}
+
+.swiper-pagination-bullet {
+  transition: all 0.3s;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #dd4c12;
+  transform: scale(1.2);
+}
+
+.myRecepBtn:hover .myRecepIcon {
+  fill: hsl(24, 90%, 61%);
+}
+
+.mySlide {
+  border-radius: 35px;
+  object-fit: cover;
+  max-height: 340px;
+}
+
+@media (min-width: 420px) {
+  .mySlide {
+    max-height: 450px;
+  }
+  .recipeImg {
+    height: 250px;
+  }
+}
+
+@media (min-width: 550px) {
+  .mySlide {
+    max-height: 625px;
+  }
+}
+
+@media (min-width: 640px) {
+  .recipeImg {
+    height: 180px;
+  }
+}
+
+.recipe-buttons {
+  display: flex;
+  padding: 10px 0px 10px 0px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: space-evenly;
+}
+
+.checkmark {
+  @apply block h-8 w-8 bg-[url("/assets/icons/checkIcon.svg")] bg-center bg-no-repeat;
+}
+
+#ingridients {
+}
+
+#directions img {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+  @apply mx-auto mb-6 mt-6 block h-auto w-full rounded-xl sm:w-1/2;
+}
+
+ul li {
+  @apply flex items-center gap-x-2;
+}
+
+.active {
+  @apply border-b-2 border-b-accent-600 text-accent-600 !important;
+}
+
+#ingridients_btn,
+#directions_btn {
+  @apply -mb-[11.5px] w-1/2 pb-4 text-black/50;
+}
